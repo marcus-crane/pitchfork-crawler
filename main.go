@@ -17,7 +17,7 @@ type Review struct {
 
 func main() {
   var artistName string
-  flag.StringVar(&artistName, "artist", "themselves", "Name of artist to search")
+  flag.StringVar(&artistName, "artist", "outkast", "Name of artist to search")
   flag.Parse()
 
   reviews := make([]*Review, 0)
